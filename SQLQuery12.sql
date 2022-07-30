@@ -10,12 +10,12 @@ INSERT INTO PRODUTOS(
 	preco_lista
 )
 VALUES(
-	'100058',
-	'Chot',
-	'Lata',
-	'250ml',
-	'Morango',
-	8.90
+		'100058'
+	,	'Chot'
+	,	'Lata'
+	,	'250ml'
+	,	'Morango'
+	,	8.90
 )
 
 /*ALTERANDO CONTE�DO DA TABELA*/
