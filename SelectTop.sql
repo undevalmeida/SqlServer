@@ -1,9 +1,9 @@
-/* SELEÇÃO DOS DADOS*/
-SELECT TOP(1000) /*TOP(1000) MOSTRA A QUANTIDADE DE NÚMERO ESCOLHIDA*/
+/* SELEï¿½ï¿½O DOS DADOS*/
+SELECT TOP(1000) /*TOP(1000) MOSTRA A QUANTIDADE DE Nï¿½MERO ESCOLHIDA*/
 	cpf IDENTIFICADOR
   , nome CLIENTE
-  , endereco_1 [ENDEREÇO 1]
-  ,	endereco_2 [ENDEREÇO 2]
+  , endereco_1 [ENDEREï¿½O 1]
+  ,	endereco_2 [ENDEREï¿½O 2]
   , bairro BAIRRO
   , cidade CIDADE
   , estado ESTADO
@@ -11,7 +11,7 @@ SELECT TOP(1000) /*TOP(1000) MOSTRA A QUANTIDADE DE NÚMERO ESCOLHIDA*/
   ,	data_nascimento  DATA_NASCIMENTO
   , idade IDADE
   , sexo SEXO
-  , limite_credito [LIMITE DE CRÉDITO]
+  , limite_credito [LIMITE DE CRï¿½DITO]
   , volume_compra [VOLUME DE COMPRA]
   , primeira_compra [PRIMEIRA COMPRA]
 FROM TB_CLIENTES
@@ -19,13 +19,13 @@ FROM TB_CLIENTES
 SELECT
 	cpf IDENTIFICADOR
   , nome CLIENTE
-  , endereco_1 [ENDEREÇO 1]
+  , endereco_1 [ENDEREï¿½O 1]
   , bairro BAIRRO
   , cidade CIDADE
   , estado ESTADO
   ,	data_nascimento  DATA_NASCIMENTO
   , sexo SEXO
-  , limite_credito [LIMITE DE CRÉDITO]
+  , limite_credito [LIMITE DE CRï¿½DITO]
   , primeira_compra [PRIMEIRA COMPRA]
 FROM TB_CLIENTES
-WHERE bairro = 'Jardins' /*COMANDO WHERE NO SELECT RESTRINGE A CONSULTA*/
+WHERE bairro = 'Jardins' /*COMANDO WHERE NO SELECT RESTRINGE A CONSULTA. PODENDO TAMBÃ‰M UTILIZAR OS SINAIS MAIOR QUE(>), MENOR QUE(<), IGUAL (=), MAIOR OU IGUAL (>=), MENOR OU IGUAL(<=), ETC.*/
