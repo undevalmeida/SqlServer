@@ -2,7 +2,7 @@
 
 
 SELECT
-	cpf IDENTIFICADOR
+	  cpf IDENTIFICADOR
   , nome CLIENTE
   , endereco_1 [ENDERE�O 1]
   , bairro BAIRRO
