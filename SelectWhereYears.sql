@@ -6,7 +6,7 @@ SELECT
   , bairro BAIRRO
   , cidade CIDADE
   , estado ESTADO
-  ,	data_nascimento  DATA_NASCIMENTO
+  ,	data_nascimento 
   , sexo SEXO
   , limite_credito [LIMITE DE CR�DITO]
   , primeira_compra [PRIMEIRA COMPRA]
