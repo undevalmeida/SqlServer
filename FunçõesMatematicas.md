@@ -1,16 +1,20 @@
 ># Funções matemáticas
 * **CEILING**
   * Retorna o menor inteiro maior que ou igual a expressão numérica específicada.
-    * Exemplo: Se tivessemos o número (12,58) 
+    * Exemplo: SELECT CELING(12,589562) 
         * O resultado obtido seria (13)
 * **FLOOR**
   * Retorna o maior inteiro menor ou igual à expressão númerica especificada.
-    * Exemplo: Se tivessemos o número (12,58) 
-        * O resultado obtido seria (13)
+    * Exemplo: SELECT FLOOR(12,59898) 
+        * O resultado obtido seria (12)
 * **RAND**
   * Retorna um valor float pseudoaleatório de 0 a 1, exclusivo.
+    * Exemplo: SELECT RAND()
+      * O resultado obtido seria qualquer número aleatório entre 0 e 1 (0,239761809368576)
 * **ROUND**
   * Retorna um valor númerico, arredondado, para o comprimento ou precisão especificados.
+    * Exemplo: SELECT ROUND(12.33323323, 2) 
+      * O resultado seria (12.33000000)
 
 >## Outras...
 * ABS
