@@ -1,5 +1,5 @@
 ># Funções no SQL Server
-* **LITRIN**
+* **LTRIM**
     * Retorna uma expressão de caractere depois de remover espaços em branco à esquerda.
       * Exemplo: SELECT LTRIM('     OLÁ')
 * **RTRIM**
