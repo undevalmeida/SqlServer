@@ -1,4 +1,0 @@
-/*ALTERANDO CONTE�DO DA TABELA*/
-UPDATE PRODUTOS SET
-	tamanho = '250 ml'
-WHERE cod_produto = 100058
